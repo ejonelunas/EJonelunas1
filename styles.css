@@ -1,0 +1,208 @@
+head {
+    display: none;
+}
+
+body {
+    display: block;
+    margin: 0;
+}
+
+body:focus {
+    outline: none;
+}
+
+header {
+    display: block;
+}
+
+#navbar {
+    display: block;
+    background-color: #0078ff;
+    position: fixed;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+li a {
+    display: block;
+    float: right;
+    padding: 8px;
+    margin-right: 35px;
+}
+
+ul {
+    list-style: none;
+    top: 0;
+    text-align: right;
+    margin: 0;
+    overflow: hidden;
+    height: 3em;
+}
+
+li {
+    display: block;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #ff6200;
+}
+
+.section {
+    margin: 0;
+}
+
+#welcome {
+    height: 100vh;
+    background-color: whitesmoke;
+    margin: -20px 0 0 0;
+    text-align: center;
+}
+
+#welcome h1 {
+    padding-top: 7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff6200;
+}
+
+#welcome h3 {
+    color: #ff6200;
+}
+
+#projects {
+    background-color: whitesmoke;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 2em;
+    color: black;
+}
+
+#projects hr {
+    border: solid;
+    width: 90%;
+    color: black;
+}
+
+.container {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.project-tile {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 2em;
+}
+
+.project-tile img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.project-tile p {
+    margin-top: -0.39em;
+    margin-right: -.01em;
+    margin-bottom: -.25em;
+    margin-left: -.01em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #0078ff;
+    color: #000000;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 580px) {
+    #projects hr {
+        width: 70%;
+    }
+
+    .container {
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .project-tile {
+        display: block;
+        width: 35%;
+    }
+
+    .project-tile img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#contact {
+    height: 300px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#contact h1 {
+    margin: 0em;
+    text-align: center;
+    padding-top: 2em;
+    color: black;
+}
+
+#contact h3 {
+    text-align: center;
+    color: #000000;
+}
+  
+.logo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+    
+}
+  
+.logo i {
+    margin: 0;
+    font-size: 2em;
+    color: #000000;
+}
+  
+.logo i:hover {
+    color: #ff6200;
+}
+  
+  
+
+  
+footer {
+    text-align: right;
+    background-color: #0087ff;
+    margin-top: -1em;
+    margin-bottom: -1em;
+}
+  
+footer hr {
+    color: black;
+    border: solid
+}
+  
+footer p {
+    padding-bottom: 10px;
+    color: #000000;
+}
+  
